@@ -58,5 +58,6 @@ api.add_resource(response,'/response/<string:path>/<string:category>')
 def home():
     return "Namaste Judges"
 
+
 if __name__ == '__main__':
     app.run(debug=True)
